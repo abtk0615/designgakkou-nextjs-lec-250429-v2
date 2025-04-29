@@ -1,6 +1,8 @@
 import { Button } from "@/components/ui/button";
 import { MapPin, Phone, Twitter, Instagram, Linkedin } from "lucide-react";
-import { CONTACT_FORM_URL, CONTACT_SECTION, BASE_URL } from "@/constants/site";
+import { 
+    // CONTACT_FORM_URL,
+     CONTACT_SECTION, BASE_URL } from "@/constants/site";
 import { Metadata } from "next";
 import { createMetadata } from "@/utils/metadata";
 
@@ -105,7 +107,7 @@ export default function ContactPage() {
                   24時間以内に担当者からご連絡いたします。
                 </p>
                 <a
-                  href={CONTACT_FORM_URL}
+                //   href={CONTACT_FORM_URL}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-full max-w-md"
